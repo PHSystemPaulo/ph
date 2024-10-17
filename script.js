@@ -16,8 +16,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
 
     const messageElement = document.getElementById('message');
     if (result.success) {
-        messageElement.style.color = 'green';
-        messageElement.innerText = 'Login bem-sucedido!';
+        window.location.href = '/geral.html'; // Redireciona para a próxima página após login
     } else {
         messageElement.style.color = 'red';
         messageElement.innerText = 'Email ou senha incorretos!';

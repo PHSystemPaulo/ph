@@ -1,4 +1,3 @@
-<script>
     // Simulação de dados de login corretos
     const validEmail = "usuario@exemplo.com";
     const validPassword = "123456";
@@ -18,7 +17,7 @@
         document.getElementById("error-message").style.display = "block";
       }
     });
-  </script>
+
 
 document.getElementById('loginForm').addEventListener('submit', async function(event) {
     event.preventDefault();

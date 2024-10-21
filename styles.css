@@ -78,3 +78,26 @@ button {
     margin-top: 5px;
     color: red;
 }
+
+ /* Container das fotos */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 fotos por linha */
+      gap: 10px; /* Espaçamento entre as fotos */
+      padding: 20px;
+    }
+
+    /* Cada item da galeria (foto) */
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px; /* Bordas arredondadas */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ao redor das fotos */
+    }
+
+    /* Ajusta a quantidade de colunas para telas menores (responsivo) */
+    @media (max-width: 800px) {
+      .gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 fotos por linha */
+      }
+        

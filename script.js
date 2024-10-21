@@ -11,7 +11,7 @@
       // Validação simples do login
       if (email === validEmail && password === validPassword) {
         // Redireciona para a próxima página ao sucesso
-        window.location.href = "proxima-pagina.html";
+        window.location.href = "geral.html";
       } else {
         // Exibe mensagem de erro se a validação falhar
         document.getElementById("error-message").style.display = "block";

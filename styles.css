@@ -82,7 +82,7 @@ button {
  /* Container das fotos */
     .gallery {
       display: grid;
-      grid-template-columns: repeat(4, 1fr); /* 4 fotos por linha */
+      grid-template-columns: repeat(8, 1fr); /* 4 fotos por linha */
       gap: 10px; /* Espaçamento entre as fotos */
       padding: 20px;
     }

@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;

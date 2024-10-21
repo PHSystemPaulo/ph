@@ -17,16 +17,19 @@ body {
     height: 100vh;
 }
 
- /* Iframe posicionado no fundo */
-    .background-iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
+ /* Estilo básico para remover margens e garantir o preenchimento da tela */
+    body, html {
+      margin: 0;
+      padding: 0;
       height: 100%;
-      z-index: -1;
-      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: url('TelaPrincipalContato.png') no-repeat center center fixed;
+      background-size: cover; /* Cobre a tela toda */
     }
+
 .container {
     background-color: #fff;
     padding: 20px;

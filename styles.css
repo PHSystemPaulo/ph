@@ -88,7 +88,7 @@ button {
     }
 
     /* Cada item da galeria (foto) */
-    .gallery img {
+    .gallery png {
       width: 100%;
       height: auto;
       border-radius: 8px; /* Bordas arredondadas */
